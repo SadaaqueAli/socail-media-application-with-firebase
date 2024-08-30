@@ -29,7 +29,7 @@ document.querySelector("#submitBtn").addEventListener('click', async (event) => 
             email: email,
         });
         //reirect to log in
-        window.location.href = "../signin/signin.html";
+        window.location.href = ".//signin/signin.html";
 
     } catch (error) {
         console.log(error.message);
